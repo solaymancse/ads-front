@@ -1,6 +1,5 @@
 import Image from "next/image";
 import ToolTip from "@mui/material/Tooltip";
-import { Aboreto  } from "@next/font/google";
 import { CgProfile } from "react-icons/cg";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
@@ -9,10 +8,7 @@ import Navbar from './Navbar'
 import HamburgerMenu from "./HamburgerMenu";
 import Link from "next/link";
 
-const aboreto = Aboreto({
-    subsets: ['latin'],
-    weight: '400',
-})
+
 
 const websiteTitle = "AL-SALAM DAY SCHOOL";
 
@@ -29,7 +25,7 @@ export default function Header() {
                         height={38}
                         priority
                     />
-                    <h2 className={`md:text-2xl xl:text-5xl ${aboreto.className}`}>{websiteTitle}</h2>
+                    <h2 className={`md:text-2xl xl:text-5xl }`}>{websiteTitle}</h2>
                 </Link>
                 <div className="flex items-center gap-6">
                     <div className="flex items-center gap-6">
