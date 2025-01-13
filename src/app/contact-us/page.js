@@ -7,7 +7,6 @@ import ContactForm from "@/components/ContactForm";
 import { Divider } from "@mui/material";
 import { GoogleMap, LoadScript, Marker, InfoWindow } from "@react-google-maps/api";
 
-import COLORS from "@/constants/colors";
 
 const googleMapsApiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
 
